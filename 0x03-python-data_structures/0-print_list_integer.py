@@ -6,4 +6,4 @@ def print_list_integer(my_list=[])
    """Print all integer of list."""
 
    for ind in my_list:
-       print("{}", ind.format)
+       print("{:d}".format(my_list[ind]))
