@@ -1,2 +1,2 @@
---Inserting new table
-create table if not exists `first_table`(`id` int, `name` varchar(256));
+--Inserting new table.
+CREATE TABLE IF NOT EXISTS `first_table` (`id` INT, `name` VARCHAR(256));
