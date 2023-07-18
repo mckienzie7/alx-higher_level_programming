@@ -1,4 +1,4 @@
 
---Display all DAtabase's on Mysql server
+--Display all DAtabase's on Mysql server 
 
-SHOW DATABASES;
+SELECT * FROM DATABASES;
