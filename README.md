@@ -31,7 +31,7 @@ scripting. The specific list of projects contained follows:
 
 ## Author :black_nib:
 
-* **Michae Solomon** <[Mckienzie7](https://github.com/Mckienzie7)>
+* **Michael Solomon** <[Mckienzie7](https://github.com/Mckienzie7)>
 
 ## Acknowledgements :pray:
 
