@@ -8,6 +8,6 @@ if __name__ == "__main__":
 
     c = db.cursor()
     c.execute("SELECT * FROM `states` \
-            WHERE BINARY `name` = 'n%'")
+            WHERE `name` LIKE 'n%'")
 
     [print(state) for state in c.fetchall()]
