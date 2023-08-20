@@ -101,4 +101,4 @@ Results are sorted by ascending states.id and cities.id.
 102-relationship_cities_states_list.py: Python script that uses SQLAlchemy to list all City objects from the database hbtn_0e_101_usa.
 Usage: ./102-relationship_cities_states_list.py <mysql username> <mysql password> <database name>.
 Uses the state relationship to access the State objects linked to City objects.
-Results are sorted by ascending cities.id.
+Results are sorted by ascending cities
