@@ -1,9 +1,6 @@
 #!/usr/bin/node
 const myVar = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-const leng = myVar.length;
-let i = 0;
-while ( i < leng)
-{
+
+for (let i = 0; i < myVar.length; i++){
 console.log(myVar[i]);
-i++;
 }
