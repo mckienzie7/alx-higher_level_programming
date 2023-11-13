@@ -1,8 +1,11 @@
 #!/usr/bin/node
-const myVar = process.argv.length;
-
-if (myVar <= 2){
-console.log('No argument');
-}else{
-console.log(process.argv[2]);
+let x = 0;
+process.argv.forEach((val, index) => {
+  x++;
+  if (index === 2) {
+    console.log(`${val}`);
+  }
+});
+if (x <= 2) {
+  console.log('No argument');
 }
