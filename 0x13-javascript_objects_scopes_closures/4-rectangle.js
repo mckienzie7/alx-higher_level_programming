@@ -16,11 +16,11 @@ module.exports = class Rectangle {
       console.log(length);
     }
   }
+
   rotate () {
-    let j = this.width;
-    this.width = this.height;
-    this.height = j;
+    [this.width, this.height] = [this.height, this.width];
   }
+
   double () {
     this.width = this.width * 2;
     this.height = this.height * 2;
