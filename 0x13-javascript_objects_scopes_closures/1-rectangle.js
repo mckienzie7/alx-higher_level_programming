@@ -4,4 +4,4 @@ constructor(w, l) {
 this.width = w;
 this.height = l;
 }
-}
+};
